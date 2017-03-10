@@ -1,0 +1,16 @@
+{
+  "name": "Patrick",
+  "version": "1.0.0",
+  "description": "Projet de Patrick",
+  "main": "server.createServer.js",
+  "_comment" : "Sert pour Heroku pour lancer le projet",
+  "scripts": {
+    "start": "node server.createServer.js"
+  },
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "engines": {
+        "_comment" : "Sert pour Heroku"
+  }
+}
